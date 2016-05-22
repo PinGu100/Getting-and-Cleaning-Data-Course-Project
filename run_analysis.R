@@ -45,7 +45,7 @@ data<-rbind(trainActivity, testActivity)
 
 #Extract only the measurements on the mean and standard deviation for each measurement.
 extractedFeaturesNames<-features$V2[grep("mean\\(\\)|std\\(\\)", features$V2)]
-extractedNames<-c("newV1", as.character(extractedFeaturesNames), "subject", "activity")
+extractedNames<-c(as.character(extractedFeaturesNames), "subject", "activity")
 tidyData<-subset(data,select=extractedNames)
 
 
