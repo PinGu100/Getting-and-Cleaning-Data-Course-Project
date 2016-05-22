@@ -3,11 +3,11 @@
 1. download, upzip and read files from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. combine X_train with subject_train, combine X_test with subject_test.
 3. give names listed in features to virables in X_train and X_test.
-4. Uses descriptive activity names to name the activities in the train and test datasets.
-5. Merges the subject and activity labelled train and test datasets to one data set.
-6. Extracts only the measurements on the mean and standard deviation for each measurement.
-7. labels the data set with descriptive variable names.
-8. creates a second, independent tidy data set with the average of each variable for each activity and each subject, and output it.
+4. Use descriptive activity names to name the activities in the train and test datasets.
+5. Merge the subject and activity labelled train and test datasets to one data set.
+6. Extract only the measurements on the mean and standard deviation for each measurement.
+7. label the data set with descriptive variable names.
+8. create a second, independent tidy data set with the average of each variable for each activity and each subject, and output it.
 
 ##Data
 Quoting from README.txt in the original dataset:
