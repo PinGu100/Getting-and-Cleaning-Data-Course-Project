@@ -1,4 +1,5 @@
-Summary of the codes:
+#CODEBOOK
+##Summary of the codes:
 1. download, upzip and read files from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. combine X_train with subject_train, combine X_test and subject_test.
 3. give names listed in features to virables in X_train and X_test.
@@ -8,7 +9,7 @@ Summary of the codes:
 7. labels the data set with descriptive variable names.
 8. creates a second, independent tidy data set with the average of each variable for each activity and each subject, and output it.
 
-Varibles:
+##Varibles:
 Quoting from features_info.txt in the original dataset:
 "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -63,7 +64,7 @@ tBodyGyroMean
 tBodyGyroJerkMean"
 
 
-Varibles in the output tidy data set:
+###Varibles in the output tidy data set:
 [1] "subject"                                       
  [2] "activity"                                      
  [3] "newV1"                                         
