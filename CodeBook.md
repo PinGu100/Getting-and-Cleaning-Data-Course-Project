@@ -1,7 +1,7 @@
 #CODEBOOK
 ##Summary of the codes:
 1. download, upzip and read files from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-2. combine X_train with subject_train, combine X_test and subject_test.
+2. combine X_train with subject_train, combine X_test with subject_test.
 3. give names listed in features to virables in X_train and X_test.
 4. Uses descriptive activity names to name the activities in the train and test datasets.
 5. Merges the subject and activity labelled train and test datasets to one data set.
