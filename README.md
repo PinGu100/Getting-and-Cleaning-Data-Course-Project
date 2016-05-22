@@ -17,7 +17,7 @@ run_analysis.R
 1. The script download, upzip and read files from the above link
 2. It labels the train and test datasets with subject and descriptive activity
 3. It gives the descriptive names in the features.txt to the varibles in the datasets.
-3. It combines the train and test dataset
+3. It combines the train and test datasets
 4. It extracts only the measurements on the mean and standard deviation for each measurement.
 5. It creates and outputs a new tidy dataset with the average of each variable for each activity and each subject.
 
