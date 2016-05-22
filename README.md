@@ -25,4 +25,4 @@ run_analysis.R
 newTidyData.txt
 
 ##CodeBook
-CodeBook.md.  It describle the variables and summaries calculated in run_analysis.R
+CodeBook.md.  It describles the variables and summaries calculated in run_analysis.R
