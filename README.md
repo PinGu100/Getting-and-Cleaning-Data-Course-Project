@@ -10,7 +10,9 @@ run_analysis.R is created to do:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. "
 
 ##Analysis Script
+
 run_analysis.R
+
 1. The script download, upzip and read files from the above link
 2. It labels the train and test datasets with subject and descriptive activity
 3. It gives the descriptive names in the features.txt to the varibles in the datasets.
